@@ -25,6 +25,7 @@ http://www.mulesoft.org/schema/mule/json http://www.mulesoft.org/schema/mule/jso
 	}
 }]]></dw:set-payload>
         </dw:transform-message>
+        <logger message="end flow" level="INFO" doc:name="Logger"/>
 
     </flow>
 </mule>
